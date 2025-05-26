@@ -1,0 +1,45 @@
+{
+  "expo": {
+    "name": "Travax",
+    "slug": "travax",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/travax.png",
+    "scheme": "myapp",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/images/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "icon": "./assets/images/travax.png",
+      "supportsTablet": true,
+      "bundleIdentifier": "com.anonymous.travax",
+      "NSLocationWhenInUseUsageDescription": "We use your location to track your trips."
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "permissions": [
+        "ACCESS_FINE_LOCATION"
+      ],
+      "package": "com.anonymous.travax"
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/images/favicon.png"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-font"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}
